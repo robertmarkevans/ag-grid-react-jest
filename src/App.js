@@ -3,6 +3,9 @@ import './App.css';
 
 import {AgGridReact} from 'ag-grid-react';
 
+import { LicenceManager } from 'ag-grid-enterprise'
+LicenceManager.setLicenceKey("Put a valid licence key in here and run npm test")
+
 class App extends Component {
     constructor(props) {
         super(props);
